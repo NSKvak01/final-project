@@ -1,0 +1,527 @@
+const videos = [{
+    "zone":"arm",
+    "time":"5",
+    "pace":"slow",
+    "url":"https://youtu.be/NCzNpWHIvTE"
+},
+{
+    "zone":"arm",
+    "time":"5",
+    "pace":"fast",
+    "url":"https://youtu.be/lc7Kz9E5qvE"
+},
+{
+    "zone":"arm",
+    "time":"10",
+    "pace":"slow",
+    "url":"https://youtu.be/j64BBgBGNIU"
+},
+{
+    "zone":"arm",
+    "time":"10",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=kyqIZyemvio"
+},
+{
+    "zone":"arm",
+    "time":"10",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=RVTfIfox9EY"
+},
+{
+    "zone":"arm",
+    "time":"15",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=Y346900i9qE"
+},
+{
+    "zone":"arm",
+    "time":"15",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=uNfZF6gLMP0"
+},
+{
+    "zone":"back",
+    "time":"5",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=xq9Lnti-ewA"
+},
+{
+    "zone":"back",
+    "time":"5",
+    "pace":"fast",
+    "url":"https://youtu.be/voVM_Re7nOQ"
+},
+{
+    "zone":"back",
+    "time":"10",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=zpWfSbaTvwA"
+},
+{
+    "zone":"back",
+    "time":"10",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=ECxsw3Dhr84"
+},
+{
+    "zone":"back",
+    "time":"10",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=6QYeOqPTyzQ"
+},
+{
+    "zone":"back",
+    "time":"15",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=o062bxRT1EA"
+},
+{
+    "zone":"back",
+    "time":"15",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=imRJUblCTjw"
+},
+{
+    "zone":"abs",
+    "time":"5",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=0UgAUJxqvUU"
+},
+{
+    "zone":"abs",
+    "time":"5",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=zXITzjuRXYo"
+},
+{
+    "zone":"abs",
+    "time":"5",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=2q2l9Ec3KPs"
+},
+{
+    "zone":"abs",
+    "time":"10",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=AnYl6Nk9GOA"
+},
+{
+    "zone":"abs",
+    "time":"10",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=54x6yjnzLms"
+},
+{
+    "zone":"abs",
+    "time":"10",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=8LMVy1tNnO4"
+},
+{
+    "zone":"abs",
+    "time":"15",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=F408w2GRBqA"
+},
+{
+    "zone":"abs",
+    "time":"15",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=rK_tmffSghQ"
+},
+{
+    "zone":"abs",
+    "time":"15",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=fcN37TxBE_s"
+},
+{
+    "zone":"glutes",
+    "time":"5",
+    "pace":"slow",
+    "url":"https://youtu.be/9AWGRHemqYs"
+},
+{
+    "zone":"glutes",
+    "time":"5",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=yn7jv821tAc"
+},
+{
+    "zone":"glutes",
+    "time":"10",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=dSOvRW-llj8"
+},
+{
+    "zone":"glutes",
+    "time":"10",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=RqfkrZA_ie0"
+},
+{
+    "zone":"glutes",
+    "time":"15",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=WI4K1g7JfZI"
+},
+{
+    "zone":"glutes",
+    "time":"15",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=XJcoOdKlYqk"
+},
+{
+    "zone":"glutes",
+    "time":"15",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=iMU-OFNDt5s"
+},
+{
+    "zone":"mix",
+    "time":"5",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=v53MoEpO2mM"
+},
+{
+    "zone":"mix",
+    "time":"5",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=AHVLT18Z1XI"
+},
+{
+    "zone":"mix",
+    "time":"5",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=q_JAxNc__kA"
+},
+{
+    "zone":"mix",
+    "time":"10",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=6VFLKdfxA24"
+},
+{
+    "zone":"mix",
+    "time":"10",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=FGFfqCjtmS8"
+},
+{
+    "zone":"mix",
+    "time":"10",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=h4OAUnGGWp0"
+},
+{
+    "zone":"mix",
+    "time":"10",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=Spc5yl47h1Y"
+},
+{
+    "zone":"mix",
+    "time":"15",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=60tyjz_EHjU"
+},
+{
+    "zone":"mix",
+    "time":"15",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=1skBf6h2ksI"
+},
+
+
+
+
+{
+    "zone":"arm",
+    "time":"5",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=qCrGCSMYiSY"
+},
+{
+    "zone":"arm",
+    "time":"5",
+    "pace":"fast",
+    "url":"https://youtu.be/W2Mq_c-dgVY"
+},
+{
+    "zone":"arm",
+    "time":"10",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=7L-Td_p0bXE"
+},
+{
+    "zone":"arm",
+    "time":"10",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=DHOPWvO3ZcI"
+},
+{
+    "zone":"arm",
+    "time":"10",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=Hy_L8teEGnw"
+},
+{
+    "zone":"arm",
+    "time":"15",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=ESkI_WR1qqc"
+},
+{
+    "zone":"arm",
+    "time":"15",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=SDUV49z60eQ"
+},
+{
+    "zone":"arm",
+    "time":"15",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=YqESgpnHttQ"
+},
+{
+    "zone":"back",
+    "time":"5",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=iuhMk6f1ETg"
+},
+{
+    "zone":"back",
+    "time":"5",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=JQeOhQoi3GY"
+},
+{
+    "zone":"back",
+    "time":"10",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=p1GERX3lf3Y"
+},
+{
+    "zone":"back",
+    "time":"10",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=QN5Nu1aeYyc"
+},
+{
+    "zone":"back",
+    "time":"15",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=WomhbEXCYfQ"
+},
+{
+    "zone":"back",
+    "time":"15",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=JtT6B8TIA-s"
+},
+{
+    "zone":"back",
+    "time":"15",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=COwGXr1RIlI"
+},
+{
+    "zone":"abs",
+    "time":"5",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=Jnkz6q39Dlw"
+},
+{
+    "zone":"abs",
+    "time":"5",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=fDFOS4n7hFo"
+},
+{
+    "zone":"abs",
+    "time":"5",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=pVu-n044cPY"
+},
+{
+    "zone":"abs",
+    "time":"5",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=vLUmnrofbTs"
+},
+{
+    "zone":"abs",
+    "time":"5",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=IZ7bIRWE3Fs"
+},
+{
+    "zone":"abs",
+    "time":"10",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=l2AHpn2i7_Y"
+},
+{
+    "zone":"abs",
+    "time":"10",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=1f8yoFFdkcY"
+},
+{
+    "zone":"abs",
+    "time":"10",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=svdPTfOpAyQ"
+},
+{
+    "zone":"abs",
+    "time":"10",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=3GZ5wcXMhcM"
+},
+{
+    "zone":"abs",
+    "time":"10",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=YEGHVqDpMpk"
+},
+{
+    "zone":"abs",
+    "time":"15",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=vii9pLg-9to"
+},
+{
+    "zone":"abs",
+    "time":"15",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=JjyWKxZMCLU"
+},
+{
+    "zone":"abs",
+    "time":"15",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=Z_dgrjRlD_4"
+},
+{
+    "zone":"glutes",
+    "time":"5",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=hR613FCzrKU"
+},
+{
+    "zone":"glutes",
+    "time":"5",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=-oxQEqzdFmc"
+},
+{
+    "zone":"glutes",
+    "time":"10",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=dCZv3MEs51Q"
+},
+{
+    "zone":"glutes",
+    "time":"10",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=IRLw6_Bg6HM"
+},
+{
+    "zone":"glutes",
+    "time":"10",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=WGnCC4udvlw"
+},
+{
+    "zone":"glutes",
+    "time":"15",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=bpuhnZzojw0"
+},
+{
+    "zone":"glutes",
+    "time":"15",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=XAQPwjaMHos"
+},
+{
+    "zone":"glutes",
+    "time":"15",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=xeiPKhqcGzQ"
+},
+{
+    "zone":"mix",
+    "time":"5",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=HGBtGGal2Lw"
+},
+{
+    "zone":"mix",
+    "time":"5",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=Tz9d7By2ytQ"
+},
+{
+    "zone":"mix",
+    "time":"5",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=Tz9d7By2ytQ"
+},
+{
+    "zone":"mix",
+    "time":"10",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=MHroB8Of-nM"
+},
+{
+    "zone":"mix",
+    "time":"10",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=48tN82L4nD0"
+},
+{
+    "zone":"mix",
+    "time":"10",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=zr08J6wB53Y"
+},
+{
+    "zone":"mix",
+    "time":"10",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=GLUTMWX09Kc"
+},
+{
+    "zone":"mix",
+    "time":"15",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=fMPoCc78v0g"
+},
+{
+    "zone":"mix",
+    "time":"15",
+    "pace":"slow",
+    "url":"https://www.youtube.com/watch?v=F8v9SA4Ptu4"
+},
+{
+    "zone":"mix",
+    "time":"15",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=9rQ5wxssQss"
+},
+{
+    "zone":"mix",
+    "time":"15",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=K64S8YXC3Rw"
+},
+{
+    "zone":"mix",
+    "time":"15",
+    "pace":"fast",
+    "url":"https://www.youtube.com/watch?v=60tyjz_EHjU"
+}
+]
