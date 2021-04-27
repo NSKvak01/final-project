@@ -1,4 +1,4 @@
-const videos = [{
+const VIDEOS = [{
     "zone":"arm",
     "time":"5",
     "pace":"slow",

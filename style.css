@@ -15,10 +15,16 @@
     align-items: center;
 }
 
+#main-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #title{
     font-size: 40px;
     margin: 10px;
-    margin-top: 100px;
+    margin-top: 70px;
     background: -webkit-linear-gradient(rgba(38, 102, 240, 0.829), rgba(210, 36, 233, 0.623));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -28,7 +34,7 @@
     font-family: 'Ubuntu', sans-serif;
     color: rgb(49, 128, 231);
     font-size: 18px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 #equipment{
@@ -56,6 +62,7 @@ justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 12px;
+    background-color: rgba(96, 186, 239, 0.044);
 }
 
 .filters{
@@ -69,24 +76,42 @@ justify-content: center;
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
     margin-bottom: 10px;
-    color:cornflowerblue;
+    color:rgb(60, 103, 184);
 }
 
 .option{
     display:flex;
-    font-size: 24px;
+    font-size: 20px;
     margin: 10px;
     font-family: 'Ubuntu', sans-serif;
     border: 1px solid rgba(129, 171, 248, 0.904);
-    background-image: linear-gradient(to bottom right, rgba(99, 146, 248, 0.856), rgb(192, 123, 191));
     padding: 10px;
     width:100px;
     justify-content: center;
     border-radius: 8px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.541);
+    box-shadow: 1px 1px 5px rgba(31, 7, 87, 0.411);
     color:white;
+}
+
+.gradient{
+    background-image: linear-gradient(to bottom right, rgba(99, 146, 248, 0.856), rgb(192, 123, 191));
+}
+
+.gradientClicked{
+    background-image: linear-gradient(to bottom right, rgb(27, 88, 219), rgb(223, 30, 219));
 }
 
 .option:hover{
     background-image: linear-gradient(to bottom right, rgb(27, 88, 219), rgb(223, 30, 219));
+}
+
+button{
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.527);
+    background-image: linear-gradient(to bottom right, rgb(0, 44, 139), rgba(128, 1, 125, 0.767));
+    
+}
+
+button:hover{
+    background-image: linear-gradient(to bottom right, rgb(0, 62, 218), rgba(133, 0, 130, 0.767));
 }
