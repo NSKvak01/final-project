@@ -14,17 +14,17 @@ function click(options, param){
             if(param === time){
                 time = option.innerText
                 time = time.split(' ')
-                time=time[0]
+                time = time[0]
+                return time
             } else if(param === areas){
-                areas=option.innerText
-                areas=areas.toLowerCase()
+                areas = option.innerText
+                areas = areas.toLowerCase()
+                return areas
             } else if(param === pace){
-                pace=option.innerText
-                pace=pace.toLowerCase()
+                pace = option.innerText
+                pace = pace.toLowerCase()
+                return pace
             }
-            
-            console.log(param)
-            return param
         })
     }
 }
@@ -35,14 +35,15 @@ click(paceOptions,pace)
 
 findVideo.addEventListener('click', ()=>{
     for(const video of VIDEOS){
-        if(video.time === time.toString() && video.zone === areas.toLowerCase() && video.pace === pace.toLowerCase()){
+        if(video.time === time && video.zone === areas && video.pace === pace){
             workout.push(video.url)
         }
     }
-    const link = workout[Math.floor((Math.random()*workout.length))]
+    console.log(workout)
+    link = workout[Math.floor((Math.random()*workout.length))]
+    // const link = 'https://www.youtube.com/embed/NCzNpWHIvTE?autoplay=0&controls=1&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"'
     console.log(link)
-    youtube.src=link
-    videos.classList.remove('hidden')
+    window.open('index2.html')
 })
 
 

@@ -1,527 +1,528 @@
 const VIDEOS = [{
-    "zone":"arm",
+    "zone":"arms",
     "time":"5",
     "pace":"slow",
-    "url":"https://youtu.be/NCzNpWHIvTE"
+    "url":"https://youtu.be/embed/NCzNpWHIvTE?autoplay=0&controls=1&enablejsapi=1"
+    
 },
 {
-    "zone":"arm",
+    "zone":"arms",
     "time":"5",
     "pace":"fast",
-    "url":"https://youtu.be/lc7Kz9E5qvE"
+    "url":"https://youtu.be/embed/lc7Kz9E5qvE?autoplay=0&controls=1&enablejsapi=1"
 },
 {
-    "zone":"arm",
+    "zone":"arms",
     "time":"10",
     "pace":"slow",
-    "url":"https://youtu.be/j64BBgBGNIU"
+    "url":"https://youtu.be/embed/j64BBgBGNIU?autoplay=0&controls=1&enablejsapi=1"
 },
 {
-    "zone":"arm",
+    "zone":"arms",
     "time":"10",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=kyqIZyemvio"
+    "url":"https://youtu.be/embed/kyqIZyemvio?autoplay=0&controls=1&enablejsapi=1"
 },
 {
-    "zone":"arm",
+    "zone":"arms",
     "time":"10",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=RVTfIfox9EY"
+    "url":"https://www.youtu.be/embed/RVTfIfox9EY?autoplay=0&controls=1&enablejsapi=1"
 },
 {
-    "zone":"arm",
+    "zone":"arms",
     "time":"15",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=Y346900i9qE"
+    "url":"https://www.youtu.be/embed/Y346900i9qE?autoplay=0&controls=1&enablejsapi=1"
 },
 {
-    "zone":"arm",
+    "zone":"arms",
     "time":"15",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=uNfZF6gLMP0"
+    "url":"https://www.youtu.be/embed/uNfZF6gLMP0?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"back",
     "time":"5",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=xq9Lnti-ewA"
+    "url":"https://www.youtu.be/embed/xq9Lnti-ewA?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"back",
     "time":"5",
     "pace":"fast",
-    "url":"https://youtu.be/voVM_Re7nOQ"
+    "url":"https://youtu.be/embed/voVM_Re7nOQ?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"back",
     "time":"10",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=zpWfSbaTvwA"
+    "url":"https://www.youtu.be/embed/zpWfSbaTvwA?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"back",
     "time":"10",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=ECxsw3Dhr84"
+    "url":"https://www.youtu.be/embed/ECxsw3Dhr84?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"back",
     "time":"10",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=6QYeOqPTyzQ"
+    "url":"https://www.youtu.be/embed/6QYeOqPTyzQ?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"back",
     "time":"15",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=o062bxRT1EA"
+    "url":"https://www.youtu.be/embed/o062bxRT1EA?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"back",
     "time":"15",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=imRJUblCTjw"
+    "url":"https://www.youtu.be/embed/imRJUblCTjw?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"5",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=0UgAUJxqvUU"
+    "url":"https://www.youtu.be/embed/0UgAUJxqvUU?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"5",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=zXITzjuRXYo"
+    "url":"https://www.youtu.be/embed/zXITzjuRXYo?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"5",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=2q2l9Ec3KPs"
+    "url":"https://www.youtu.be/embed/2q2l9Ec3KPs?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"10",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=AnYl6Nk9GOA"
+    "url":"https://www.youtu.be/embed/AnYl6Nk9GOA?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"10",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=54x6yjnzLms"
+    "url":"https://www.youtu.be/embed/54x6yjnzLms?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"10",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=8LMVy1tNnO4"
+    "url":"https://www.youtu.be/embed/8LMVy1tNnO4?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"15",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=F408w2GRBqA"
+    "url":"https://www.youtu.be/embed/F408w2GRBqA?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"15",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=rK_tmffSghQ"
+    "url":"https://www.youtu.be/embed/rK_tmffSghQ?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"15",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=fcN37TxBE_s"
+    "url":"https://www.youtu.be/embed/fcN37TxBE_s?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"glutes",
     "time":"5",
     "pace":"slow",
-    "url":"https://youtu.be/9AWGRHemqYs"
+    "url":"https://youtu.be/embed/9AWGRHemqYs?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"glutes",
     "time":"5",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=yn7jv821tAc"
+    "url":"https://www.youtu.be/embed/yn7jv821tAc?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"glutes",
     "time":"10",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=dSOvRW-llj8"
+    "url":"https://www.youtu.be/embed/dSOvRW-llj8?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"glutes",
     "time":"10",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=RqfkrZA_ie0"
+    "url":"https://www.youtu.be/embed/RqfkrZA_ie0?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"glutes",
     "time":"15",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=WI4K1g7JfZI"
+    "url":"https://www.youtu.be/embed/WI4K1g7JfZI?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"glutes",
     "time":"15",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=XJcoOdKlYqk"
+    "url":"https://www.youtu.be/embed/XJcoOdKlYqk?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"glutes",
     "time":"15",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=iMU-OFNDt5s"
+    "url":"https://www.youtu.be/embed/iMU-OFNDt5s?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"5",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=v53MoEpO2mM"
+    "url":"https://www.youtu.be/embed/v53MoEpO2mM?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"5",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=AHVLT18Z1XI"
+    "url":"https://www.youtu.be/embed/AHVLT18Z1XI?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"5",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=q_JAxNc__kA"
+    "url":"https://www.youtu.be/embed/q_JAxNc__kA?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"10",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=6VFLKdfxA24"
+    "url":"https://www.youtu.be/embed/6VFLKdfxA24?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"10",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=FGFfqCjtmS8"
+    "url":"https://www.youtu.be/embed/FGFfqCjtmS8?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"10",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=h4OAUnGGWp0"
+    "url":"https://www.youtu.be/embed/h4OAUnGGWp0?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"10",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=Spc5yl47h1Y"
+    "url":"https://www.youtu.be/embed/Spc5yl47h1Y?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"15",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=60tyjz_EHjU"
+    "url":"https://www.youtu.be/embed/60tyjz_EHjU?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"15",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=1skBf6h2ksI"
+    "url":"https://www.youtu.be/embed/1skBf6h2ksI?autoplay=0&controls=1&enablejsapi=1"
 },
 
 
 
 
 {
-    "zone":"arm",
+    "zone":"arms",
     "time":"5",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=qCrGCSMYiSY"
+    "url":"https://www.youtu.be/embed/qCrGCSMYiSY?autoplay=0&controls=1&enablejsapi=1"
 },
 {
-    "zone":"arm",
+    "zone":"arms",
     "time":"5",
     "pace":"fast",
-    "url":"https://youtu.be/W2Mq_c-dgVY"
+    "url":"https://youtu.be/embed/W2Mq_c-dgVY?autoplay=0&controls=1&enablejsapi=1"
 },
 {
-    "zone":"arm",
+    "zone":"arms",
     "time":"10",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=7L-Td_p0bXE"
+    "url":"https://www.youtu.be/embed/7L-Td_p0bXE?autoplay=0&controls=1&enablejsapi=1"
 },
 {
-    "zone":"arm",
+    "zone":"arms",
     "time":"10",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=DHOPWvO3ZcI"
+    "url":"https://www.youtu.be/embed/DHOPWvO3ZcI?autoplay=0&controls=1&enablejsapi=1"
 },
 {
-    "zone":"arm",
+    "zone":"arms",
     "time":"10",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=Hy_L8teEGnw"
+    "url":"https://www.youtu.be/embed/Hy_L8teEGnw?autoplay=0&controls=1&enablejsapi=1"
 },
 {
-    "zone":"arm",
+    "zone":"arms",
     "time":"15",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=ESkI_WR1qqc"
+    "url":"https://www.youtu.be/embed/ESkI_WR1qqc?autoplay=0&controls=1&enablejsapi=1"
 },
 {
-    "zone":"arm",
+    "zone":"arms",
     "time":"15",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=SDUV49z60eQ"
+    "url":"https://www.youtu.be/embed/SDUV49z60eQ?autoplay=0&controls=1&enablejsapi=1"
 },
 {
-    "zone":"arm",
+    "zone":"arms",
     "time":"15",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=YqESgpnHttQ"
+    "url":"https://www.youtu.be/embed/YqESgpnHttQ?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"back",
     "time":"5",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=iuhMk6f1ETg"
+    "url":"https://www.youtu.be/embed/iuhMk6f1ETg?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"back",
     "time":"5",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=JQeOhQoi3GY"
+    "url":"https://www.youtu.be/embed/JQeOhQoi3GY?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"back",
     "time":"10",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=p1GERX3lf3Y"
+    "url":"https://www.youtu.be/embed/p1GERX3lf3Y?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"back",
     "time":"10",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=QN5Nu1aeYyc"
+    "url":"https://www.youtu.be/embed/QN5Nu1aeYyc?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"back",
     "time":"15",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=WomhbEXCYfQ"
+    "url":"https://www.youtu.be/embed/WomhbEXCYfQ?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"back",
     "time":"15",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=JtT6B8TIA-s"
+    "url":"https://www.youtu.be/embed/JtT6B8TIA-s?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"back",
     "time":"15",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=COwGXr1RIlI"
+    "url":"https://www.youtu.be/embed/COwGXr1RIlI?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"5",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=Jnkz6q39Dlw"
+    "url":"https://www.youtu.be/embed/Jnkz6q39Dlw?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"5",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=fDFOS4n7hFo"
-},
-{
-    "zone":"abs",
-    "time":"5",
-    "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=pVu-n044cPY"
+    "url":"https://www.youtu.be/embed/fDFOS4n7hFo?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"5",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=vLUmnrofbTs"
+    "url":"https://www.youtu.be/embed/pVu-n044cPY?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"5",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=IZ7bIRWE3Fs"
+    "url":"https://www.youtu.be/embed/vLUmnrofbTs?autoplay=0&controls=1&enablejsapi=1"
+},
+{
+    "zone":"abs",
+    "time":"5",
+    "pace":"fast",
+    "url":"https://www.youtu.be/embed/IZ7bIRWE3Fs?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"10",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=l2AHpn2i7_Y"
+    "url":"https://www.youtu.be/embed/l2AHpn2i7_Y?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"10",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=1f8yoFFdkcY"
+    "url":"https://www.youtu.be/embed/1f8yoFFdkcY?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"10",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=svdPTfOpAyQ"
+    "url":"https://www.youtu.be/embed/svdPTfOpAyQ?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"10",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=3GZ5wcXMhcM"
+    "url":"https://www.youtu.be/embed/3GZ5wcXMhcM?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"10",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=YEGHVqDpMpk"
+    "url":"https://www.youtu.be/embed/YEGHVqDpMpk?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"15",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=vii9pLg-9to"
+    "url":"https://www.youtu.be/embed/vii9pLg-9to?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"15",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=JjyWKxZMCLU"
+    "url":"https://www.youtu.be/embed/JjyWKxZMCLU?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"abs",
     "time":"15",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=Z_dgrjRlD_4"
+    "url":"https://www.youtu.be/embed/Z_dgrjRlD_4?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"glutes",
     "time":"5",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=hR613FCzrKU"
+    "url":"https://www.youtu.be/embed/hR613FCzrKU?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"glutes",
     "time":"5",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=-oxQEqzdFmc"
+    "url":"https://www.youtu.be/embed/-oxQEqzdFmc?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"glutes",
     "time":"10",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=dCZv3MEs51Q"
+    "url":"https://www.youtu.be/embed/dCZv3MEs51Q?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"glutes",
     "time":"10",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=IRLw6_Bg6HM"
+    "url":"https://www.youtu.be/embed/IRLw6_Bg6HM?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"glutes",
     "time":"10",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=WGnCC4udvlw"
+    "url":"https://www.youtu.be/embed/WGnCC4udvlw?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"glutes",
     "time":"15",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=bpuhnZzojw0"
+    "url":"https://www.youtu.be/embed/bpuhnZzojw0?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"glutes",
     "time":"15",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=XAQPwjaMHos"
+    "url":"https://www.youtu.be/embed/XAQPwjaMHos?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"glutes",
     "time":"15",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=xeiPKhqcGzQ"
+    "url":"https://www.youtu.be/embed/xeiPKhqcGzQ?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"5",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=HGBtGGal2Lw"
+    "url":"https://www.youtu.be/embed/HGBtGGal2Lw?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"5",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=Tz9d7By2ytQ"
+    "url":"https://www.youtu.be/embed/Tz9d7By2ytQ?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"5",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=Tz9d7By2ytQ"
+    "url":"https://www.youtu.be/embed/Tz9d7By2ytQ?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"10",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=MHroB8Of-nM"
+    "url":"https://www.youtu.be/embed/MHroB8Of-nM?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"10",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=48tN82L4nD0"
+    "url":"https://www.youtu.be/embed/48tN82L4nD0?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"10",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=zr08J6wB53Y"
+    "url":"https://www.youtu.be/embed/zr08J6wB53Y?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"10",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=GLUTMWX09Kc"
+    "url":"https://www.youtu.be/embed/GLUTMWX09Kc?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"15",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=fMPoCc78v0g"
+    "url":"https://www.youtu.be/embed/fMPoCc78v0g?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"15",
     "pace":"slow",
-    "url":"https://www.youtube.com/watch?v=F8v9SA4Ptu4"
+    "url":"https://www.youtu.be/embed/F8v9SA4Ptu4?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"15",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=9rQ5wxssQss"
+    "url":"https://www.youtu.be/embed/9rQ5wxssQss?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"15",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=K64S8YXC3Rw"
+    "url":"https://www.youtu.be/embed/K64S8YXC3Rw?autoplay=0&controls=1&enablejsapi=1"
 },
 {
     "zone":"mix",
     "time":"15",
     "pace":"fast",
-    "url":"https://www.youtube.com/watch?v=60tyjz_EHjU"
+    "url":"https://www.youtu.be/embed/60tyjz_EHjU?autoplay=0&controls=1&enablejsapi=1"
 }
 ]

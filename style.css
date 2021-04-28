@@ -15,12 +15,6 @@
     align-items: center;
 }
 
-#main-2{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #title{
     font-size: 40px;
     margin: 10px;
@@ -114,4 +108,8 @@ button{
 
 button:hover{
     background-image: linear-gradient(to bottom right, rgb(0, 62, 218), rgba(133, 0, 130, 0.767));
+}
+
+#player{
+    width:1080px;
 }
