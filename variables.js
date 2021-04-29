@@ -7,6 +7,14 @@ if (hist===null){
     history = $(hist)
 }
 
+let favorite;
+let favor = JSON.parse(localStorage.getItem('favorite'))
+if(favor !== null){
+    favorite = $(favor)
+}else{
+    favorite=[]
+}
+
 let time =''
 let areas =''
 let pace =''
@@ -15,10 +23,20 @@ let journal = {}
 let width = $('#header').css('width')
 let info=''
 
+const j= $('#journal')
+let d;
+let t;
+let a;
+let p;
+let l;
 
 
 
+let i;
+let u;
 
+
+let saved={}
 
 
 let today = new Date();
