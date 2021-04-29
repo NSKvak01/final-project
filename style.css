@@ -300,11 +300,25 @@ img{
     flex:1;
 }
 
+#saved{
+    width:1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .my{
     display:flex;
-    margin-left: 100px;
     align-self: center;
-    width:500px;
+    width:400px;
     height:280px;
 }
 
@@ -390,8 +404,8 @@ img{
     .my{
         margin-left: 0px;
         margin-right: 10px;
-        width:300px;
-        height:180px;
+        width:280px;
+        height:150px;
 
     }
     .biggerDiv{
@@ -399,5 +413,8 @@ img{
     }
     .showed{
         align-items: center;
+    }
+    #saved{
+        width:600px;
     }
 }
