@@ -1,47 +1,19 @@
 # Final Project
 
-In this project, you'll build a web application that does anything you want! 
+In this project, I've build a web application that searches for short exercises based on user needs regarding time, body area and pace
 
-It must meet the project requirements below, but beyond that, feel free to use your creativity to decide on what your app will do.
+## How does it work
 
-## Requirements
+On homepage a user should check options for all three filters. Only after all three filters are chosen, the "Find video" button can show random video result based on the filters. When the search button is clicked, the app builds an array of video links that match those criteria and randomly chooses one video from that array, thus, user has a variety of workouts.
 
-* Your app has at least three features
-  * For a 'Todo list app', three features could be "adding todos", "editing todos", and "removing todos"
-* Your project has at least ten commits in git
-* Your app is mobile responsive
-* Your project contains a `README.md` file that explains what your project is and how to use it
-* Your project is hosted on GitHub pages
-* Your code is clean
-  * Proper indentation
-  * No unnecessary repetition
-  * Variables as camelCase
+The filters are hided and the video takes the whole page, a user can save it to favorites by clicking on the heart icon. This information is stored on 'Favorite videos' page. 
 
-## Project ideas
+A user can click on white area to show the filters again. 
 
-* Travel planner
-* Budget manager
-* Resume builder
-* Ballmer-peak calculator
-* Shift scheduling app
-* Chat bot
-* Music making app
-* Games
-  * PacMan
-  * Chess
-* Do something with an external API: https://github.com/public-apis/public-apis
-  * Slack / discord bot
-  * Recreate Reddit
-  * Pokedex
+He can also go to journal. THe journal page shows all the workouts, a user has ever done, including the information about time, pace, area, date, and link.
 
-And so many more possibilities!
+A user can also check out his favorite videos by clicking on "Favorite videos" page. It shows the workout name and also the video, so a user can play it right from there.
 
-## Recommendations
+To start a new workout click on "Start new exercise"
 
-* Start out by creating your project's foundation in HTML.
-* Frequently make commmits in git to save your progress.
-* Build one piece of Javascript functionality at a time, testing each change you make with `console.log`. 
-* Keep your code meticulously organized as you go. 
-* Use proper indentation, whitespace, and comments. 
-* Try to write a function for each separate piece of functionality that exists in your code. This will make your code "modular" and easier to build off of.
-* If you find yourself repeating code, think about how you could use either a loop or a new function to eliminate the repitition.
+###### There is also a phone view available
